@@ -1,4 +1,4 @@
-FROM rust:1.54.0
+FROM rust:1.56.0
 RUN cargo install cargo-chef
 RUN apt-get update && \
     apt-get install -y musl-tools && \
